@@ -1,0 +1,88 @@
+@media (min-width: 400px) {
+    body {
+        background: #cccccc;
+    }
+}
+
+@media (min-width: 500px) {
+    body {
+        background: #888888;
+    }
+}
+
+@media (min-width: 600px) {
+    body {
+        background: #222222;
+    }
+}
+
+
+body{
+	background-image: url("../images/BTTF1.jpg"); 
+	font-family: 'Play', sans-serif;
+}
+
+header{
+	height:100px;
+	line-height: 100px;
+	width: auto;
+	color: white;
+	padding-top: 15px;
+
+	/*background-color: #131051;*/
+	font-family: 'Play', sans-serif;
+}
+
+#playBtn{
+	background-color: transparent;
+	color: white;
+	border: none;
+	font-size: 12px;
+
+}
+
+#pauseBtn:focus{
+	background-color: transparent;
+	color: white;
+	outline: none;
+	font-weight: 900;
+	font-size: 18px;
+
+	
+}
+
+#pauseBtn{
+	background-color: transparent;
+	color: white;
+	border: none;
+	font-size: 12px;
+}
+
+#playBtn:focus{
+	background-color: transparent;
+	color: white;
+	outline: none;
+	font-weight: 900;
+	font-size: 18px;
+
+}
+
+.panel{
+
+	height: 300px;
+	margin-top: 25px;
+	/* background-color: black; */
+	color: white;
+	
+	text-align: center;
+	padding-top: 25px
+}
+
+h3{
+	color: white;
+}
+
+h4{
+	display:inline;
+	margin-right: 20px;
+}

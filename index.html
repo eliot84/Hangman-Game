@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>    
+    <title>Back to the Future - Hangman</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+    </head>
+
+
+  <body>
+    
+
+    <header class="container-fluid">
+         <h1>Back to the Future - Hangman</h1>
+    </header>
+
+    <!-- Begin page content -->
+    <main role="main" class="container">
+
+
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+           <div class="panel gameBoard"><h4 id="pregame">Press any key to begin playing BTF Hangman</h4>
+            <h1 id="guesses"></h1> <!-- SHOWS THE HANGMAN --> 
+            <br />
+            <h2 id="gameEnd"></h2>
+            <h4 id="guessLeft"></h4>
+            <h4 id="winning"></h4>
+
+            <p id=wrongGuesses></p><!-- wrong guesses title -->
+            <p id="wrong"></p> 
+
+            <button id="playBtn" style="display:none" style="font-size: 18px" style="font-weight: 900"  onclick="playAudio()" type="button">Play Audio</button>
+            <button id="pauseBtn" style="display:none" onclick="pauseAudio()" type="button">Pause Audio</button> 
+           </div></div>
+
+        <div class="col-sm-12 col-md-6 col-lg-6">
+           <div class="panel"> </div></div>
+      </div>
+    </main>
+
+
+<audio id="myAudio">
+  <source src="assets/music/btfmusic.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
+
+
+
+
+
+    <script src="assets/javascript/game.js"></script>
+
+  </body>
+
+
+</html>
