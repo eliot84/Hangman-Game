@@ -1,17 +1,3 @@
-
-
-/* 
-
-1. Wait for start to be pressed and once pressed do the following
-2. Pick a random currentWord that has not been picked already from the questions list
-3. Show current word blanks, score, and number of guesses left
-4. listen for user input and when user inputs do the following
-5. check if the letter is in the current word if so add it to the display if not add it to the wrong list
-6. If user guesses the word give 1 point
-7. if user does not guess the word show game over! 
-
-*/
-
 var hangWords = ["plutonium", "sandman", "delorean", "casino", "clock", "billboard", "manure", "lorraine", "pepsi", "butthead", "heavy", "griff", "hilldale", "jigowatt", "marty", "almanac", "dreamboat", "square", "velocity", "skateboard", ];
 var startGame = 0; //Begins the game 0 off 1 on 2 the game already started and continues to a new round.
 var currWord; // Holds the value for the current word
@@ -20,7 +6,7 @@ var gameStatus = []; //shows the current letters guessed and blanks left
 var wins = 0; //keeps score of rounds won
 var remainingGuesses = 6; //Remaining Guesses
 
-
+console.log("Hi there! Author: Eliot Allan Rodriguez e-mail: mr.ear84@gmail.com ");
 
 //Setup Audio Controls
 var x = document.getElementById("myAudio"); 
