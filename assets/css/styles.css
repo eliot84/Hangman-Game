@@ -1,24 +1,17 @@
-@media (min-width: 400px) {
+@media screen and (max-width: 1000px) {
     body {
-        background: #cccccc;
+		background-image: url("../images/car.jpg"); 
     }
 }
 
-@media (min-width: 500px) {
+@media screen and (min-width: 1001px) {
     body {
-        background: #888888;
-    }
-}
-
-@media (min-width: 600px) {
-    body {
-        background: #222222;
+	background-image: url("../images/BTTF1.jpg"); 
     }
 }
 
 
 body{
-	background-image: url("../images/BTTF1.jpg"); 
 	font-family: 'Play', sans-serif;
 }
 
